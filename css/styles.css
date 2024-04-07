@@ -25,11 +25,12 @@ html {
 
 .capssalera {
   background: #2c4059;
-  display:flex;
+  display: flex;
   margin-bottom: 3px;
 }
 
-.logo, .social {
+.logo,
+.social {
   background: #ea5455;
   flex: 1;
 }
@@ -87,22 +88,14 @@ html {
   background: #f0e78c;
 }
 
+@media only screen and (max-width: 768px) {
+  .capssalera,
+  .main,
+  .article {
+    flex-direction: column;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  /* .main {
+    background: #feff03;
+  } */
+}
