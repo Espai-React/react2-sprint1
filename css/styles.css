@@ -39,6 +39,32 @@ body {
   flex: 1;
 }
 
+@keyframes canviMida{
+  0% {
+    scale: 1;
+  }
+  100% {
+    scale: 1.25;
+  }
+}
+
+.logo:hover {
+  background: #ff1493;
+  cursor: pointer;
+  /*
+  animation-name: canviMida; //none
+  animation-duration: .25s; //1
+  animation-timing-function: linear;
+  animation-delay: 0;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-direction: normal;
+  animation-fill-mode: forwards; //none
+  animation-play-state: running;
+  */
+  animation: canviMida .25s forwards;
+}
+
 .nav {
   background: #ea5455;
   flex: 5;
