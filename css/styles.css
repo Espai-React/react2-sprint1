@@ -63,7 +63,7 @@ html {
 
 .article {
   background: #226baf;
-  flex: 1 1 45%;
+  flex: 1 1 40%;
 }
 
 .article-footer {
@@ -97,5 +97,33 @@ html {
 
   /* .main {
     background: #feff03;
+  } */
+}
+
+@media only screen and (max-width: 576px) {
+  /* .main {
+    background: #f8e42f;
+  } */
+
+  .section {
+    flex-direction: column;
+    /* background: #1b647a; */
+  }
+
+  /* .article {
+    background-color: #659ab8;
+    flex: 1;
+  } */
+
+  /* .article-footer {
+    background-color: #abe7ab;
+  } */
+
+  /* .aside {
+    background-color: #f57439;
+  } */
+
+  /*  .publicitat {
+    background: #e7ae64;
   } */
 }
