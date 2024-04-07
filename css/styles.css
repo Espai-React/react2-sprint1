@@ -1,0 +1,108 @@
+html {
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+* {
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background: #000000;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.capssalera {
+  background: #2c4059;
+  display:flex;
+  margin-bottom: 3px;
+}
+
+.logo, .social {
+  background: #ea5455;
+  flex: 1;
+}
+
+.nav {
+  background: #ea5455;
+  flex: 5;
+}
+
+.banner {
+  background: #ff8a00;
+  margin-top: 3px;
+}
+
+.hero {
+  background: #fed700;
+}
+
+.main {
+  display: flex;
+  background: #000000;
+}
+
+.section {
+  background: #4e4e6a;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 2;
+}
+
+.article {
+  background: #226baf;
+  flex: 1 1 45%;
+}
+
+.article-footer {
+  background: #71a3c6;
+  flex: 1 1 100%;
+}
+
+.aside {
+  background: #f63f51;
+  flex: 1;
+}
+
+.publicitat {
+  background: #fed700;
+}
+
+.footer {
+  background: #000000;
+}
+
+.peu-pagina {
+  background: #f0e78c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
