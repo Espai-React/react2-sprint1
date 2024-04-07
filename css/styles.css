@@ -9,6 +9,10 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  background: #aaa;
+}
+
 .container {
   max-width: 1200px;
   margin: 10px auto;
@@ -89,6 +93,10 @@ html {
 }
 
 @media only screen and (max-width: 768px) {
+  body {
+    background: #666;
+  }
+
   .capssalera,
   .main,
   .article {
@@ -100,7 +108,10 @@ html {
   } */
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 576px) {body {
+  background: #444;
+}
+
   /* .main {
     background: #f8e42f;
   } */
