@@ -15,7 +15,7 @@ body {
 
 .container {
   max-width: 1200px;
-  margin: 10px auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
@@ -39,7 +39,7 @@ body {
   flex: 1;
 }
 
-@keyframes canviMida{
+@keyframes canviMida {
   0% {
     scale: 1;
   }
@@ -62,7 +62,7 @@ body {
   animation-fill-mode: forwards; //none
   animation-play-state: running;
   */
-  animation: canviMida .25s forwards;
+  animation: canviMida 0.25s forwards;
 }
 
 .nav {
@@ -134,9 +134,10 @@ body {
   } */
 }
 
-@media only screen and (max-width: 576px) {body {
-  background: #444;
-}
+@media only screen and (max-width: 576px) {
+  body {
+    background: #444;
+  }
 
   /* .main {
     background: #f8e42f;
